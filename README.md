@@ -1,4 +1,4 @@
 # ExamenTienda 
 # Desarrollador: Miguel Cabrera Muñoz.
 # Perfil: Front End -> React Js
-# Antes de levantar el proyecto se debe de instalar las siguientes herramientas:
+* Al bajar el proyecto se debe de ejecutar el comando: npm i
