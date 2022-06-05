@@ -1,0 +1,59 @@
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    box-shadow: 5px 110px 20px 1px rgba(0, 0, 0, 0, 253)!important;
+}
+
+.card {
+    padding: .5rem;
+    width: 50px;
+    box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+    transition: transform .3s ease;
+    cursor: pointer;
+}
+
+.card__title {
+    font-weight: 400;
+    font-size: .9rem;
+}
+
+.paginationBttns {
+    width: 80%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.paginationBttns a {
+    padding: 5px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #69aeee;
+    color: #69aeee;
+    cursor: pointer;
+    margin-top: 2px;
+}
+
+.paginationBttns a:hover {
+    color: white;
+    background-color: #69aeee;
+}
+
+.paginationActive a {
+    color: white;
+    background-color: #69aeee;
+}
+
+.paginationDisabled a {
+    color: grey;
+    background-color: grey;
+}
+
+@media (max-width: 768px) {
+    .rowstyle {
+        display: block;
+        flex-direction: row !important;
+    }
+}
